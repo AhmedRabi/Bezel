@@ -1,0 +1,196 @@
+.animated:after {
+    content: "|";
+    color: #00c3da;
+    font-weight: 400px;
+    animation-name: typing;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.animated {
+    color: #00c3da;
+    font-weight: 400px;
+}
+
+@keyframes typing {
+    0% {
+        content: "apps|"
+    }
+    5% {
+        content: "apps|"
+    }
+    7% {
+        content: "app|"
+    }
+    9% {
+        content: "ap|"
+    }
+    11% {
+        content: "a|"
+    }
+    13% {
+        content: "|"
+    }
+    15% {
+        content: "w|"
+    }
+    17% {
+        content: "we|"
+    }
+    19% {
+        content: "web|"
+    }
+    21% {
+        content: "webs|"
+    }
+    23% {
+        content: "websi|"
+    }
+    25% {
+        content: "websit|"
+    }
+    27% {
+        content: "website|"
+    }
+    29% {
+        content: "websites|"
+    }
+    40% {
+        content: "websites|"
+    }
+    42% {
+        content: "website|"
+    }
+    44% {
+        content: "websit|"
+    }
+    46% {
+        content: "websi|"
+    }
+    48% {
+        content: "webs|"
+    }
+    50% {
+        content: "web|"
+    }
+    52% {
+        content: "we|"
+    }
+    54% {
+        content: "w|"
+    }
+    56% {
+        content: "|"
+    }
+    58% {
+        content: "s|"
+    }
+    60% {
+        content: "so|"
+    }
+    62% {
+        content: "sof|"
+    }
+    64% {
+        content: "soft|"
+    }
+    66% {
+        content: "softw|"
+    }
+    68% {
+        content: "softwa|"
+    }
+    70% {
+        content: "softwar|"
+    }
+    72% {
+        content: "software|"
+    }
+    74% {
+        content: "softwares|"
+    }
+    80% {
+        content: "softwares|"
+    }
+    82% {
+        content: "software|"
+    }
+    84% {
+        content: "softwar|"
+    }
+    86% {
+        content: "softwa|"
+    }
+    88% {
+        content: "softw|"
+    }
+    90% {
+        content: "soft|"
+    }
+    92% {
+        content: "sof|"
+    }
+    94% {
+        content: "so|"
+    }
+    95% {
+        content: "s|"
+    }
+    96% {
+        content: "|"
+    }
+    97% {
+        content: "a|"
+    }
+    98% {
+        content: "ap|"
+    }
+    99% {
+        content: "app|"
+    }
+    100% {
+        content: "apps|"
+    }
+}
+
+.team-member-card:hover .team-overlay {
+    opacity: 1;
+    top: 0;
+    transition: all .3s ease;
+    background-color: rgba(0, 195, 218, 0.9);
+    width: 100%;
+}
+
+.work-item:hover .work-item-info {
+    top: -9em;
+    opacity: 1;
+    transition: all .3s ease;
+}
+
+.work-item:hover img {
+    transform: scale(1.2) translateY(-20px);
+    transition: all 1s ease;
+}
+
+.work-item:hover .work-item-info h3,
+.work-item:hover .work-item-info p {
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    -webkit-transition-delay: .6s;
+    transition-delay: .6s;
+}
+
+.work-item:hover .work-item-info p {
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    -webkit-transition-delay: .6s;
+    transition-delay: .6s;
+}
+
+.pricing-table:hover {
+    box-shadow: 0 0 65px rgba(0, 0, 0, 0.1);
+}
