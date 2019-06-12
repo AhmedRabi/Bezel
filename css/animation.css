@@ -156,6 +156,7 @@
 .team-member-card:hover .team-overlay {
     opacity: 1;
     top: 0;
+    height:1000px;
     transition: all .3s ease;
     background-color: rgba(0, 195, 218, 0.9);
     width: 100%;
